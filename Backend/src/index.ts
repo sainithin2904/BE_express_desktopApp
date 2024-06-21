@@ -32,7 +32,7 @@ app.get('/ping', (req: Request, res: Response) => {
 
 // POST /submit - Save a form submission
 app.post('/submit', (req: Request, res: Response) => {
-  console.log("am here")
+  // console.log("am here")
   const { Name, Email, Phone, github_link, StopwatchTime } = req.body;
 
   // Validate input
