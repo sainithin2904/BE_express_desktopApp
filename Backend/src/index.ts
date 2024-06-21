@@ -37,7 +37,7 @@ app.post('/submit', (req: Request, res: Response) => {
 
   // Validate input
   if (!Name || !Email || !Phone || !github_link || !StopwatchTime) {
-    return res.status(400).send({ error: 'All fields are required' });
+    return res.status(400).send({ error: 'All the fields are required' });
   }
 
   // Create a new submission
